@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gaohui.customprogressbar.MainActivity">
+
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <com.gaohui.progress.HorizontalProgress
+        android:id="@+id/progressBar01"
+        android:padding="5dp"
+        android:layout_marginTop="30dp"
+        android:progress="50"
+        app:progress_reach_color="#ff0000"
+        app:progress_text_color="#00ff00"
+        app:progress_unreach_color="#0000ff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.gaohui.progress.HorizontalProgress
+        android:id="@+id/progressBar02"
+        android:padding="5dp"
+        android:layout_marginTop="30dp"
+        android:progress="100"
+        app:progress_reach_color="#ff0000"
+        app:progress_text_color="#00ff00"
+        app:progress_unreach_color="#0000ff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <com.gaohui.progress.RoundProgress
+        android:background="#eeeeff"
+        android:id="@+id/progressBar03"
+        android:padding="5dp"
+        android:layout_marginTop="30dp"
+        android:progress="30"
+        app:progress_reach_color="#ff0000"
+        app:progress_text_color="#00ff00"
+        app:progress_unreach_color="#0000ff"
+        app:progress_unreach_height="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+  </LinearLayout>
+
+</ScrollView>
