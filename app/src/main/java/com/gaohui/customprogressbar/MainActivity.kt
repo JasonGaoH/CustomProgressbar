@@ -20,11 +20,16 @@ class MainActivity : AppCompatActivity() {
             super.handleMessage(msg)
             //获得刚才发送的Message对象，然后在这里进行UI操作
             progressBar01.progress++
+            progressBar02.progress++
+            progressBar03.progress++
+            progressBar04.progress++
+            progressBar05.progress++
+            progressBar06.progress++
+            progressBar07.progress++
             if(progressBar01.progress >= 100) {
                 this.removeMessages(EMPTY_MSG)
 
             }
-            //progressBar03.progress++
             this.sendEmptyMessageDelayed(EMPTY_MSG, 100)
         }
     }
