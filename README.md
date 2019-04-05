@@ -2,7 +2,7 @@
 
 简图：
 
-![](http://ohazfcl3s.bkt.clouddn.com/progressbar.gif)
+![](./imgs/customprogress.gif)
 
 ## 采用kotlin编写的带进度的ProgressBar
 
